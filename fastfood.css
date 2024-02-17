@@ -1,0 +1,115 @@
+body{
+    padding: 0 !important;
+    margin: 0;
+}
+
+/* header section */
+.head-container {
+    background-color: #ff80ff;
+    border: 2px solid #ff1aff;
+    border-radius: 5px;
+     padding: 15px;
+}
+
+.head-text {
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+.menu-bar {
+    margin-left: 40px;
+    font-size: large;
+    cursor: pointer;
+
+
+}
+
+.menu-head {
+    margin: 15px;
+}
+
+/* body section */
+
+.head-img-container{
+    position: relative;
+}
+
+.fastfood-heading{
+    font-size: 60px;
+    position: absolute;
+    top: 50px;
+    color: white;
+    left: 520px;
+}
+
+.cards-container{
+   
+    height: 400px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.cards{
+
+    height: 330px;
+    width: 250px;
+    background-color: #f5dbf5;
+    padding: 20px;
+    text-align: center;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.cards-img{
+    height: 140px;
+    width:140px;
+    border:2px solid black;
+    box-shadow: 2px 2px 10px 3px gray;
+    border-radius: 50%;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 2px solid #ff1aff;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bold;
+
+
+}
+
+.margin-top{
+    margin-top: 40px;
+}
+
+/* footer section */
+
+.footer-container{
+    height: 180px;
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+
+}
+
+.footer-text{
+    color: white;
+    cursor: pointer;
+}
+
+
