@@ -4,33 +4,64 @@
 <head>
 
     <title>Sakshi's Kitchen</title>
+    
     <style>
+
+        /* header section */
+        body {
+            padding: 0 !important;
+            margin: 0;
+        }
+
         .head-container {
             background-color: #ff80ff;
             border: 2px solid #ff1aff;
-            border-radius: 15px;
-
-
-
-            padding: 15px;
+            border-radius: 5px;
+            padding: 5px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
 
         .head-text {
             text-align: center;
             font-size: xx-large;
-
         }
 
+
         .menu-bar {
-            margin-left: 40px;
             font-size: large;
             cursor: pointer;
-
-
+            display: flex;
         }
 
         .menu-head {
-            margin: 15px;
+            margin-left: 100px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar-btn {
+            background-color: black;
+            color: white;
+            border: 2px solid #ff1aff;
+            display: block;
+            /* margin-left: 300px; */
+            font-size: 15px;
+            padding: 8px 15px;
+            border-radius: 20px;
+
+        }
+
+        .navbar-btn:hover {
+            background-color: white;
+            color: black;
+            transition: 0.5s;
+            cursor: pointer;
+            border-radius: 30px;
+            font-weight: bold;
+
+
         }
 
         .img-head {
@@ -74,16 +105,12 @@
             cursor: pointer;
             border-radius: 30px;
             font-weight: bold;
-
-
         }
 
         .menus-container {
             display: flex;
             justify-content: space-around;
             margin-top: 40px;
-
-
         }
 
         .menu-img {
@@ -105,7 +132,7 @@
         }
 
         .menu-description {
-            
+
             text-align: justify;
             margin: 10px;
             background-color: #f5dbf5;
@@ -118,38 +145,48 @@
 
         /* footer section */
 
-        .footer-container{
+        .footer-container {
             height: 180px;
             background-color: black;
             display: flex;
-            justify-content:space-around;
+            justify-content: space-around;
             padding: 30px;
 
         }
 
-        .footer-text{
+        .footer-text {
             color: white;
             cursor: pointer;
         }
-
-        
     </style>
 </head>
 
 <body>
 
-    
+
     <div class="head-container">
 
+        <div class="logo-img">
+            <img src="./images/logo.png" height="40px">
+        </div>
+
+
         <div class="menu-bar">
-             <a href="index.html" class="menu-head">Home</a> 
+         
+            <a href="index.html" class="menu-head">Home</a>
             <a href="menupage.html" class="menu-head">Menu</a>
             <a href="service.html" class="menu-head">Service</a>
             <a href="about-us.html" class="menu-head">About Us</a>
             <a href="contact-us.html" class="menu-head">Contact Us</a>
 
+
+        </div>
+
+        <div>
+            <button type="button" class="navbar-btn navbar-btn:hover">Sign in/Up</button>
         </div>
     </div>
+
 
 
     <h1 class="head-text"><u>Sakshi's Kitchen</u> <img src="./images/logo.png" style="  height: 40px;   "></h1>
@@ -194,8 +231,9 @@
 
                 Here Is Our Latest Menu Section, To Enjoy Fresh Healthy Food😍</p>
 
-          
-           <a href="menupage.html" target="_blank"> <button class="des-btn" type="button"  style="margin-top: 40px;">Menu Page</button></a>
+
+            <a href="menupage.html" target="_blank"> <button class="des-btn" type="button"
+                    style="margin-top: 40px;">Menu Page</button></a>
         </div>
     </div>
     <br>
@@ -221,7 +259,7 @@
             <p class="footer-text">Shipping</p>
             <p class="footer-text">Returns</p>
             <p class="footer-text">Order Status</p>
-            
+
         </div>
 
 
@@ -235,13 +273,13 @@
 
         <div>
             <p class="footer-text"><u>Follow Us</u></p>
-           
-                <img src="./images/facebook.png" height="20px" style="margin: 10px 5px; cursor: pointer;">
-                <img src="./images/twitter.png" height="20px" style="margin: 10px 5px; cursor: pointer;">
-                <img src="./images/instagram.png" height="20px" style="margin: 10px 5px; cursor: pointer;">
-                <img src="./images/linkedin.png"  height="20px" style="margin : 10px 5px;   cursor: pointer;" >
 
-    </div>
+            <img src="./images/facebook.png" height="20px" style="margin: 10px 5px; cursor: pointer;">
+            <img src="./images/twitter.png" height="20px" style="margin: 10px 5px; cursor: pointer;">
+            <img src="./images/instagram.png" height="20px" style="margin: 10px 5px; cursor: pointer;">
+            <img src="./images/linkedin.png" height="20px" style="margin : 10px 5px;   cursor: pointer;">
+
+        </div>
 
 
 

@@ -1,51 +1,49 @@
       
-      /* header section */
-body{
-    padding: 0 !important;
-    margin: 0;
-}
+    /* header section */
+    body {
+        padding: 0 !important;
+        margin: 0;
+    }
 
-.head-container {
-    background-color: #ff80ff;
-    border: 2px solid #ff1aff;
-    border-radius: 5px;
-     padding: 5px;
-}
+    .head-container {
+        background-color: #ff80ff;
+        border: 2px solid #ff1aff;
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-.head-text {
-    text-align: center;
-    font-size: xx-large;
+    .head-text {
+        text-align: center;
+        font-size: xx-large;
+    }
+    .menu-bar {
+        font-size: large;
+        cursor: pointer;
+        display: flex;
+    }
 
-}
+    .menu-head {
+        margin-left: 100px;
+        text-decoration: none;
+        color: black;
+    }
 
-.menu-bar {
-    margin-left: 40px;
-    font-size: large;
-    cursor: pointer;
-    display: flex;
-    
-
-
-}
-
-.menu-head {
-    margin: 15px;
-    text-decoration: none;
-}
-
-.des-btn {
-
+    .navbar-btn {
         background-color: black;
         color: white;
         border: 2px solid #ff1aff;
         display: block;
-        padding: 2px 20px;
+        /* margin-left: 300px; */
+        font-size: 15px;
+        padding: 8px 15px;
         border-radius: 20px;
-        margin-left: 600px;
 
     }
 
-    .des-btn:hover {
+    .navbar-btn:hover {
         background-color: white;
         color: black;
         transition: 0.5s;
@@ -53,19 +51,9 @@ body{
         border-radius: 30px;
         font-weight: bold;
 
+
     }
-   
 
-.des-btn:hover {
-    background-color: white;
-    color: black;
-    transition: 0.5s;
-    cursor: pointer;
-    border-radius: 30px;
-    font-weight: bold;
-
-
-}
 
        /* categories menu section */
 
@@ -97,9 +85,7 @@ body{
  }
 
  .row-reverse{
-
     flex-direction: row-reverse;
-
  }
 
  .product-img{
@@ -108,8 +94,6 @@ body{
     width: 380px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px 3px gray;;
-
-
  }
 
  .btn {
@@ -119,18 +103,22 @@ body{
     display: block;
     margin: 0 auto;
     font-size: 20px;
-    padding: 8px 22px;
+    padding: 8px 10px;
     border-radius: 20px;
+    text-decoration: none;
+    width: 114px;
 
 }
 
 .btn:hover {
     background-color: white;
     color: black;
-    transition: 0.5s;
     cursor: pointer;
     border-radius: 30px;
     font-weight: bold;
+    padding: 8px 10px;
+    width: 120px;
+
 
 }
 
